@@ -1,0 +1,12 @@
+#method1
+numbers=[1,2,3,4,5,6]
+numbers.sort
+print("ascending:",numbers)
+numbers.sort(reverse=True)
+print("decending:",numbers)
+#method2
+numbers=[1,3,56,45,67,80]
+ascending=sorted(numbers)
+decending=sorted(numbers,reverse=True)
+print("ascending:",ascending)
+print("decending:",decending)
